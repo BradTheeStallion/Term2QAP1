@@ -1,3 +1,7 @@
+// Brad Ayers
+// May 25, 2024
+// QAP 1: La Voiture Noire
+
 function introAlert(msg, gfg) {
     var confirmBox = $("#container");
     
