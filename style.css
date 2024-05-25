@@ -1,0 +1,349 @@
+header {
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+nav {
+    background: linear-gradient(180deg, #4D4D4D 0%, #000 100%);
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    color: #D9BD2A;
+    position: fixed;
+    z-index: 3;
+}
+nav a {
+    color: #D9BD2A;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav a:hover {
+    color: #d9d5d5;
+}
+body{
+    background: linear-gradient(180deg, #000 0%, #4D4D4D 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(180deg, #4D4D4D 0%, #000 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    height: 800px;
+    background: linear-gradient(180deg, #000 0%, #4D4D4D 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 970px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+h1, h2, h3 {
+    color: #D9BD2A;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+p, li {
+    color: #d9d5d5;
+}
+#logos {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    margin: 30px 5px 30px 5px;
+    padding: 10px;
+}
+
+#logo1 {
+    margin-left: 25px;
+}
+
+#logo2 {
+    margin-right: 25px;
+}
+
+#aboutvid {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 970px;
+    height: 324px;
+}
+#gallerypics {
+    display: flex-wrap;
+    justify-content: center;
+    align-items: center;
+    width: 990px;
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#gallerypics div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+#gallerypics img {
+    width: 390px;
+    height: 260px;
+    border-radius: 10px;
+    margin: 15px;
+    border: #D9BD2A 2px solid;
+}
+
+#gallerypics img:hover {
+    border: #D9BD2A 2px solid;
+    transform: scale(1.2);
+}
+
+#container {
+        display: none;
+        background-color: rgb(83, 0, 83);
+        color:#d9d5d5;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 950px;
+        height: 500px;
+        border-radius: 5px;
+        padding: 16px 8px 8px;
+        box-sizing: border-box;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 2;
+    }
+ 
+#container button, #calculate {
+    background-color: #D9BD2A;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    color: #d9d5d5;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#container button:hover, #calculate:hover {
+    background-color: #d9d5d5;
+    color: #D9BD2A;
+    border: 3px solid rgb(255, 0, 153);
+    transition: 0.5s;
+}
+ 
+#container .message {
+    text-align: left;
+    padding: 10px 30px;
+    font-size: 30px;
+}
+footer {
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #000 0%, #4D4D4D 100%);
+    width: 1000px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #D9BD2A;
+    border-radius: 10px;
+}
+
+.socials img {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+hr {
+    width: 800px;
+    border: 1px solid #D9BD2A;
+}
+
+#gallery span {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgb(83, 0, 83);
+    color: #D9BD2A;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+#pic1 {
+    position: relative;
+}
+
+#pic2 {
+    position: relative;
+}
+
+#pic3 {
+    position: relative;
+}
+
+#pic4 {
+    position: relative;
+}
+
+#pic1:hover span {
+    visibility: visible;
+}
+
+#pic2:hover span {
+    visibility: visible;
+}
+
+#pic3:hover span {
+    visibility: visible;
+}
+
+#pic4:hover span {
+    visibility: visible;
+}
+
+.softedge {
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #D9BD2A;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #D9BD2A;
+    background-color: rgb(83, 0, 83);
+}
+
+input:hover {
+    border: 3px solid #D9BD2A;
+    transition: 0.5s;
+}
+
+.opaque {
+    position: relative; 
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.opaque::before {
+    opacity: 0.35; 
+    z-index: 1;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#resource {
+    height: 630px;
+}
+
+#resource::before {
+    background-image: url("Bugatti_La_Voiture_Noire,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0948).jpg"); /* https://en.wikipedia.org/wiki/Bugatti_Chiron#/media/File:Bugatti_La_Voiture_Noire,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0948).jpg */
+}
+#inspiration {
+    height: 529px;
+}
+
+#inspiration::before {
+    background-image: url("Bugatti-La-Voiture-Noire.jpg"); /* https://commons.wikimedia.org/wiki/File:Bugatti-La-Voiture-Noire.jpg */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scroller {
+    position: relative;
+    overflow-y: scroll;
+    height: 550px;
+    width: 950px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+    z-index: 2;
+    background: transparent;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#scroller li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#scroller a {
+    color: #D9BD2A;
+    text-decoration: none;
+}
+
+#scroller a:hover {
+    color: gold;
+}
+
+#scroller a:visited {
+    color: orchid;
+}
+
+#bman {
+    height: 30px;
+    padding: 10px;
+    border: #D9BD2A 2px solid;
+}
